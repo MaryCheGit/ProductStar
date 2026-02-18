@@ -1,14 +1,12 @@
 package com.projecr.mariya.productStar;
+import org.apache.commons.lang3.StringUtils;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        System.out.println( "This is my new project" );
+public class App {
+    public static void main(String[] args) {
+        String text = "Hello, World!";
+        String reversed = StringUtils.reverse(text);
+        System.out.println("Original: " + text);
+        System.out.println("Reversed: " + reversed);
     }
 }
+
